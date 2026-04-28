@@ -1,0 +1,17 @@
+{
+  "name": "payflow-payment-processing-platform",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A full-stack payment processing platform with a distributed job queue engine at its core. Every transaction is a job — with state, retry logic, idempotency, and audit trail.",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sai Charan Kodhandi",
+  "license": "ISC"
+}
